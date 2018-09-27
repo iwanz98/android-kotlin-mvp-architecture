@@ -8,10 +8,8 @@ package com.wanztudio.kotlin.mvp.util
 
 object Constants {
 
-    internal val APP_DB_NAME = "mindorks_mvp.db"
-    internal val PREF_NAME = "mindorks_pref"
-    internal val SEED_DATABASE_QUESTIONS = "seed/user.json"
-    internal val SEED_DATABASE_OPTIONS = "seed/options.json"
+   internal val APP_DB_NAME = "wanztudio.db"
+    internal val PREF_NAME = "wanztudio_pref"
     internal val EMPTY_EMAIL_ERROR = 1001
     internal val INVALID_EMAIL_ERROR = 1002
     internal val EMPTY_PASSWORD_ERROR = 1003
