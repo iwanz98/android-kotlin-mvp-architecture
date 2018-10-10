@@ -128,10 +128,6 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
     implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
 
-    // Code generator for view
-    implementation "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
-    kapt "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeVersion"
-
     // Logger
     implementation "com.jakewharton.timber:timber:$rootProject.timberVersion"
 
