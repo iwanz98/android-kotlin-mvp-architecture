@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import com.wanztudio.kotlin.mvp.R
 import com.wanztudio.kotlin.mvp.ui.base.view.BaseActivity
-import com.wanztudio.kotlin.mvp.ui.login.view.RegisterActivity
+import com.wanztudio.kotlin.mvp.ui.register.view.RegisterActivity
 import com.wanztudio.kotlin.mvp.ui.main.view.MainActivity
 import com.wanztudio.kotlin.mvp.ui.splash.interactor.SplashMVPInteractor
 import com.wanztudio.kotlin.mvp.ui.splash.presenter.SplashMVPPresenter
