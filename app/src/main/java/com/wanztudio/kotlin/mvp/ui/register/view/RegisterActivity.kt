@@ -1,4 +1,4 @@
-package com.wanztudio.kotlin.mvp.ui.login.view
+package com.wanztudio.kotlin.mvp.ui.register.view
 
 import android.os.Bundle
 import com.wanztudio.framework.mvp.ui.register.view.RegisterMVPView
