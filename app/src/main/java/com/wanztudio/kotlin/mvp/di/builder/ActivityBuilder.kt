@@ -2,15 +2,14 @@ package com.wanztudio.kotlin.mvp.di.builder
 
 import com.wanztudio.kotlin.mvp.ui.login.LoginActivityModule
 import com.wanztudio.kotlin.mvp.ui.login.view.LoginActivity
-import com.wanztudio.kotlin.mvp.ui.login.view.RegisterActivity
 import com.wanztudio.kotlin.mvp.ui.main.dialog.MainDialogProvider
-import com.wanztudio.kotlin.mvp.ui.main.first.FirstFragmentModule
 import com.wanztudio.kotlin.mvp.ui.main.first.FirstFragmentProvider
 import com.wanztudio.kotlin.mvp.ui.main.second.SecondFragmentProvider
 import com.wanztudio.kotlin.mvp.ui.main.view.MainActivity
 import com.wanztudio.kotlin.mvp.ui.register.RegisterActivityModule
+import com.wanztudio.kotlin.mvp.ui.register.view.RegisterActivity
 import com.wanztudio.kotlin.mvp.ui.splash.SplashActivityModule
-import com.wanztudio.kotlin.mvp.ui.splash.view.SplashMVPActivity
+import com.wanztudio.kotlin.mvp.ui.splash.view.SplashActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -23,7 +22,7 @@ import dagger.android.ContributesAndroidInjector
 abstract class ActivityBuilder {
 
     @ContributesAndroidInjector(modules = [(SplashActivityModule::class)])
-    abstract fun bindSplashActivity(): SplashMVPActivity
+    abstract fun bindSplashActivity(): SplashActivity
 
     @ContributesAndroidInjector(modules = [(LoginActivityModule::class)])
     abstract fun bindLoginActivity(): LoginActivity

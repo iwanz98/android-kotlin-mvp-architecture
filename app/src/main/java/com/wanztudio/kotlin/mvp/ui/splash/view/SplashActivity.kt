@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import com.wanztudio.kotlin.mvp.R
 import com.wanztudio.kotlin.mvp.ui.base.view.BaseActivity
-import com.wanztudio.kotlin.mvp.ui.register.view.RegisterActivity
+import com.wanztudio.kotlin.mvp.ui.login.view.LoginActivity
 import com.wanztudio.kotlin.mvp.ui.main.view.MainActivity
 import com.wanztudio.kotlin.mvp.ui.splash.interactor.SplashMVPInteractor
 import com.wanztudio.kotlin.mvp.ui.splash.presenter.SplashMVPPresenter
@@ -15,7 +15,7 @@ import javax.inject.Inject
  * You can contact me at : iwanz@pm.me
  */
 
-class SplashMVPActivity : BaseActivity(), SplashMVPView {
+class SplashActivity : BaseActivity(), SplashMVPView {
 
     @Inject
     lateinit var presenter: SplashMVPPresenter<SplashMVPView, SplashMVPInteractor>
@@ -45,7 +45,7 @@ class SplashMVPActivity : BaseActivity(), SplashMVPView {
     }
 
     override fun openLoginActivity() {
-        val intent = Intent(this, RegisterActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()
     }
